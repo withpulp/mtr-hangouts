@@ -20,8 +20,8 @@ Package.onUse(function (api) {
         'lib/server/hangout.js'
     ], ['client', 'server']);
 
-    api.export('Hangout', 'client');
-    api.export('Sessions', ['client', 'server']);
+    api.export('hangout', 'client');
+    api.export('sessions', ['client', 'server']);
 });
 
 Package.onTest(function (api) {

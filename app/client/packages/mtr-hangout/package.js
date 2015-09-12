@@ -1,7 +1,9 @@
 Package.describe({
     summary: 'Google Hangouts API',
     version: '0.0.1',
-    name: 'hangout'
+    name: 'wp:mtr-hangout',
+    //git: "https://github.com/withpulp/mtr-hangout",
+    documentation: "README.md"
 });
 
 Package.onUse(function (api) {

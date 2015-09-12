@@ -68,6 +68,7 @@ Have a look at the repository for more information.
   * [flemay:less-autoprefixer](http://github.com/flemay/less-autoprefixer)
   * [momentjs:moment](http://github.com/moment/moment/)
   * [msavin:mongol](http://github.com/msavin/Mongol)
+  * [percolate:google-api](https://github.com/percolatestudio/meteor-google-api)
 
 The "insecure" and "autopublish" packages are removed by default (they make your app vulnerable).
 

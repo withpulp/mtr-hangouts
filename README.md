@@ -31,8 +31,8 @@ curl https://install.meteor.com/ | sh
 ### Installation
 
 ```
-git clone git@github.com:amazingBastard/reactfolio.git
-cd reactfolio
+git clone git@github.com:withpulp/mtr-hangouts.git
+cd mtr-hangouts
 ```
 
 Run the following to get the bash file to work:

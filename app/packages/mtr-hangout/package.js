@@ -9,7 +9,7 @@ Package.describe({
 Package.onUse(function (api) {
     api.versionsFrom('1.0.1');
 
-    api.use(['emplating', 'underscore', 'http']);
+    api.use(['templating', 'underscore', 'http']);
 
     api.add_files([
         'lib/client/buttons.html',

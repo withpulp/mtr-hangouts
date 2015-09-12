@@ -17,6 +17,15 @@ A prototype for testing Meteor and Google Hangouts API
 
 * Add tests
 * Setup build environment
+* Features
+  - Automatically create hang-outs
+  - Get particpant messages
+
+ * Methods
+  - render
+  - hangoutType (normal, onair, party, moderated)
+  - invites
+  - widget-size
 
 ## How to use
 

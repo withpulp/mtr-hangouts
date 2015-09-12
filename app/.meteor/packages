@@ -13,3 +13,5 @@ flemay:less-autoprefixer
 momentjs:moment
 msavin:mongol
 percolate:google-api
+tinytest
+wp:mtr-hangout

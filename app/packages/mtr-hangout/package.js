@@ -7,10 +7,9 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
+    api.versionsFrom('1.0.1');
 
-    api.use([
-        'http'
-    ], ['client', 'server']);
+    api.use(['emplating', 'underscore', 'http']);
 
     api.add_files([
         'lib/client/buttons.html',
@@ -19,6 +18,12 @@ Package.onUse(function (api) {
 
     api.add_files([
         'lib/server/hangout.js'
-    ], ['server']);
+    ], ['client', 'server']);
+
+    api.export('Hangout', 'client');
+    api.export('Sessions', ['client', 'server']);
+});
+
+Package.onTest(function (api) {
 
 });

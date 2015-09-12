@@ -25,5 +25,11 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
+    api.use([
+        'tinytest',
+        'wp:mtr-hangout'
+    ], ['client', 'server']);
 
+    //api.addFiles('tests/client/specs.js', 'client');
+    //api.addFiles('tests/server/specs.js', 'server');
 });

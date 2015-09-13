@@ -21,11 +21,13 @@ A prototype for testing Meteor and Google Hangouts API
   - Automatically create hang-outs
   - Get particpant messages
 
- * Methods
-  - render
-  - hangoutType (normal, onair, party, moderated)
-  - invites
-  - widget-size
+ ## Methods
+ - render - render hangout upon click of hangout button
+ - topic - prepopulates topic field for Hangouts
+ - invites - invite people upon initiation of hangout
+ - initial_apps - specifies apps to launch when user clicks hangout button
+ - hangout_type - type of hangout: normal, inner, party, moderated)
+ - widget-size - width of button
 
 ## How to use
 

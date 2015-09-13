@@ -17,6 +17,7 @@ Package.onUse(function (api) {
     ], ['client']);
 
     api.add_files([
+        //'lib/api.js',
         'lib/server/hangout.js'
     ], ['client', 'server']);
 

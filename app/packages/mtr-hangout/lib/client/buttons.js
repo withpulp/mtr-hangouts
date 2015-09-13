@@ -1,10 +1,6 @@
 Template.simpleHangoutButton.onRendered(function() {
-    gapi.hangout.render('hangout', {
-        'topic': 'javascript',
-        'render': 'createhangout',
-        'initial_apps': [
-            { app_id : 'youtube' }
-        ]
+    Meteor.call('Hangout', function(error, results) {
+        console.log(results.content); //results.data should be a JSON object
     });
 });
 

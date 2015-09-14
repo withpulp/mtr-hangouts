@@ -2,7 +2,7 @@
 // @TODO create Hangouts API methods
 
 Meteor.methods({
-    Hangout: function () {
+    Hangouts: function () {
         this.unblock();
         return Meteor.http.call('GET', 'https://apis.google.com/js/platform.js');
     },

@@ -13,7 +13,8 @@ Package.onUse(function (api) {
 
     api.add_files([
         'lib/client/hangouts_widgets.html',
-        'lib/client/hangouts_widgets.js'
+        'lib/client/hangouts_widgets.js',
+        'lib/client/spacebar_helpers.js'
     ], ['client']);
 
     api.add_files([

@@ -19,7 +19,3 @@ Meteor.startup(function () {
     var head = document.getElementsByTagName('head')[0];
     head.appendChild(script);
 });
-
-UI.registerHelper("SEql", function (key, val) {
-    return Session.equals(key, val);
-});

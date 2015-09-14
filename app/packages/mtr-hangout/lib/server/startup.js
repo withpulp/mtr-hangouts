@@ -1,8 +1,5 @@
 Meteor.startup(function () {
-    Meteor.methods({
-        getHangoutAPI: function () {
-            this.unblock();
-            return Meteor.http.call('GET', 'https://apis.google.com/js/platform.js');
-        }
-    });
+    //GoogleApi.get('https://apis.google.com/js/platform.js');
+
+    console.log('test');
 });

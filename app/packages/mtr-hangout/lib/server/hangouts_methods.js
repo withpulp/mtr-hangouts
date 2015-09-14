@@ -1,4 +1,5 @@
-// Hangout Methods
+// Hangouts Methods
+// @TODO create Hangouts API methods
 
 Meteor.methods({
     Hangout: function () {
